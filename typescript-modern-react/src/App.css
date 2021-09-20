@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 6px;
+}
+
+th {
+  background-color: #acb90b;
+}
